@@ -1,0 +1,285 @@
+@inproceedings{UchoaBCOARVAPOG21,
+  title={Predicting Design Impactful Changes in Modern Code Review: A Large-Scale Empirical Study},
+  author={Uchôa, Anderson and Barbosa, Caio and Coutinho, Daniel and Oizumi, Willian and K. G. Assunção, Wesley and Regina Vergilio, Silvia and Alves Pereira, Juliana and Oliveira, Anderson and Garcia, Alessandro},
+  booktitle={Proceedings of the 18th International Conference on Mining Software Repositories (MSR 2021), 2021, Madrid, Spain, May 17--19},
+  pages={1 -- 12},
+  year={2021},
+  abstract={Companies have adopted modern code review as a key technique for continuously monitoring and improving the quality of software changes. One of the main motivations for this is the early detection of design impactful changes, to prevent that design-degrading ones prevail after each code review. Even though design degradation symptoms often lead to changes' rejections, practices of modern code review alone are actually not sufficient to avoid or mitigate design decay. Software design degrades whenever one or more symptoms of poor structural decisions, usually represented by smells, end up being introduced by a change. Design degradation may be related to both technical and social aspects in collaborative code reviews. Unfortunately, there is no study that investigates if code review stakeholders, e.g, reviewers, could benefit from approaches to distinguish and predict design impactful changes with technical and/or social aspects. By analyzing 57,498 reviewed code changes from seven open-source systems, we report an investigation on prediction of design impactful changes in modern code review. We evaluated the use of six ML algorithms to predict design impactful changes. We also extracted and assessed 41 different features based on both social and technical aspects. Our results show that Random Forest and Gradient Boosting are the best algorithms. We also observed that the use of technical features results in more precise predictions. However, the use of social features alone, which are available even before the code review starts (e.g., for team managers or change assigners), also leads to highly-accurate prediction. Therefore social and/or technical prediction models can be used to support further design inspection of suspicious changes early in a code review process. Finally, we provide an enriched dataset that allows researchers to investigate the context behind design impactful changes during the code review process.},
+  organization={IEEE Press},
+  url={https://anderson-uchoa.github.io/publications/UchoaBCOARVAPOG21.pdf},
+  doi = {10.1109/MSR52588.2021.00059}
+}
+
+@inproceedings{LimaUCCL20,
+  title={Visualizing the Maintainability of Feature Models in SPLs},
+  author={Lima, Luan and Uchôa, Anderson and Bezerra, Carla and Coutinho, Emanuel and Rocha, Lincoln},
+  booktitle={Proceedings of the 8th Workshop on Software Visualization, Evolution and Maintenance (VEM 2020), 2020, Natal, Brazil, Oct 19},
+  pages={1 -- 8},
+  year={2020},
+  abstract={This paper presents data visualizations obtained from the application of 15 measures used to support the maintainability evaluation of Software Product Line (SPL) and Dynamic SPL (DSPL) Feature Models (FMs). To identify these visualizations, we applied a survey to classify a set of 40 measures for evaluating the (D)SPL FMs maintainability. Five visualizations were designed from this classification to analyze the extensibility, static variability, dynamic variability, and structural complexity of the FMs. As result, the experts concluded the designed visualizations assist in FMs maintainability interpretation.},
+  url={https://anderson-uchoa.github.io/publications/LimaUCCL20.pdf},
+  doi = {10.5753/vem.2020.14522},
+}
+
+@inproceedings{SoaresOFBCGVSOU20,
+  title={On the Relation between Complexity, Explicitness, Effectiveness of Refactorings and Non-Functional Concerns},
+  author={Soares, Vinícius and Oliveira, Anderson and Farah, Paulo and Bibiano, Ana and Coutinho, Daniel and Garcia, Alessandro and Vergilio, Silvia and Schots, Marcelo and Oliveira, Daniel and Uchôa, Anderson},
+  booktitle={Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES), 2020, Natal, Brazil, Oct 19-23},
+  pages={788--797},
+  year={2020},
+  abstract={Developers need to consistently improve the internal structural quality of a program to address its maintainability and possibly other non-functional concerns. Refactoring is the main practice to improve code quality. Typical refactoring factors, such as their complexity and explicitness (i.e., their self-affirmation), may influence its effectiveness in improving key internal code attributes, such as enhancing cohesion or reducing its coupling, complexity and size. However, we still lack an understanding of whether such concerns and factors play a role on improving the code structural quality. Thus, this paper investigates the relationship between complexity, explicitness and effectiveness of refactorings and non-functional concerns in four projects. We study four non-functional concerns, namely maintainability, security, performance, and robustness. Our findings reveal that complex refactorings indeed have an impactful effect on the code structure, either improving or reducing the code structural quality. We also found that both self-affirmed refactorings and non-functional concerns are usually accompanied by complex refactorings, but tend to have a negative effect on code structural quality. Our findings can: (i) help researchers to improve the design of empirical studies and refactoring-related tools, and (ii) warn practitioners on which circumstances their refactorings may cause a negative impact on code quality.},
+  organization={ACM Press},
+  url={https://anderson-uchoa.github.io/publications/SoaresOFBCGVSOU20.pdf},
+  doi = {10.1145/3422392.3422439}
+}
+
+@inproceedings{MartinsABA20,
+  title={Are Code Smell Co-occurrences Harmful to Internal Quality Attributes? A Mixed-Method Study},
+  author={Martins, Júlio and Uchôa, Anderson and Bezerra, Carla and Garcia, Alessandro},
+  booktitle={Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES), 2020, Natal, Brazil, Oct 19-23},
+  pages={52--61},
+  year={2020},
+  abstract={Previous studies demonstrated how code smells (i.e., symptoms of the presence of system degradation) impact the software maintainability. However, few studies have investigated which code smell types tend to co-occur in the source code. Moreover, it is not clear to what extent the removal of code smell co-occurrences -- through refactoring operations -- has a positive impact on quality attributes such as cohesion, coupling, inheritance, complexity, and size. We aim at addressing these gaps through an empirical study. By investigating the impact of the smells co-occurrences in 11 releases of 3 closed-source systems, we observe (i) which code smells tend to co-occur together, (ii) the impact of the removal of code smell co-occurrences on quality internal attributes before and after refactoring, and (iii) which are the most difficult co-occurrences to refactoring from the developers perspective. Our results show that 5 types of code smell generally tend to co-occur (e.g, Feature Envy, and Long Method). Moreover, we observed that the removal of code smells co-occurrences lead to a significant reduction in the complexity of the systems studied was obtained. Conversely, cohesion, coupling, and inheritance tend to increase. Based on our findings, we argue that further research is needed on the impact of co-occurrences of code smells on internal quality attributes.},	
+  organization={ACM Press},
+  url={https://anderson-uchoa.github.io/publications/MartinsABA20.pdf},
+  doi = {10.1145/3422392.3422419}
+}
+
+@inproceedings{BarbosaAFDHGAFMVL20,
+  title={Revealing the Social Aspects of Design Decay: A Retrospective Study of Pull Requests},
+  author={Barbosa, Caio and Uchôa, Anderson and Falcao, Filipe and Coutinho, Daniel and Brito, Hyago and Amaral, Guilherme and Garcia, Alessandro, and Fonseca, Baldoino, and Ribeiro, Marcio and Soares, Vinicius and Sousa, Leonardo},
+  booktitle={Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES), 2020, Natal, Brazil, Oct 19-23},
+  pages={364--373},
+  year={2020},
+  abstract={The pull-based development model, popularized by social coding environments like GitHub, is widely used by open-source communities. In this model, developers actively communicate and share their knowledge or opinions through the exchange of comments. Their goal is to improve the change under development, including its positive impact on design structure. In this context, two central social aspects may contribute to combating or adversely amplifying design decay. First, design decay may be avoided, reduced or accelerated depending whether the communication dynamics among developers -- who play specific roles -- is fluent and consistent along a change. Second, the discussion content itself may be decisive to either improve or deteriorate the structural design of a system. Unfortunately, it has not been studied so far the role these key social aspects play on avoiding or amplifying design decay. Previous work either investigates technical aspects of design decay or confirms the high frequency of design discussions in pull-based software development. This paper reports a retrospective study aimed at understanding the role of communication dynamics and discussion content on design decay. We focused our analysis on 11 social metrics related to these two aspects as well as 4 control technical metrics typically used as indicators of design decay. We analyzed more than 11k pull request discussions mined from five large open-source software systems. Our findings reveal that many social metrics can be used to discriminate between design impactful and unimpactful pull requests. Second, various factors of communication dynamics are related to design decay. However, temporal factors of communication dynamics outperformed the participant roles' factors as indicators of design decay. Finally, we noticed certain social metrics tend to be indicators of design decay when analyzing both aspects together.},	
+  organization={ACM Press},
+  url={https://anderson-uchoa.github.io/publications/BarbosaAFDHGAFMVL20.pdf},
+  doi = {10.1145/3422392.3422443}
+}
+
+@inproceedings{UchoaCWPRAC20,
+  title={How Does Modern Code Review Impact Software Design Degradation? An In-depth Empirical Study},
+  author={Uchôa, Anderson and Barbosa, Caio and Oizumi, Willian and Blenilio, Publio and Lima, Rafael and Garcia, Alessandro and Bezerra, Carla},
+  booktitle={Proceedings of the 36th International Conference on Software Maintenance and Evolution (ICSME), 2020, Adelaide, Australia, Sept 27-Oct 3},
+  pages={511--522},
+  year={2020},
+  abstract={Software design is an important concern in modern code review through which multiple developers actively discuss and improve each single code change. However, there is little understanding of the impact of such developers' reviews on continuously reducing design degradation over time. It is even less clear to what extent and how design degradation is reversed during the process of each single code change's review. In summary, existing studies have not assessed how the process of design degradation evolution is impacted along: (i) within each single review, and (ii) across multiple reviews. As a consequence, one cannot understand how certain code review practices consistently contribute to either reduce or further increase design degradation as the project evolves. We aim at addressing these gaps through a multi-project retrospective study. By investigating 14,971 code reviews from seven software projects, we report the first study that characterizes how the process of design degradation evolves within each review and across multiple reviews. Moreover, we analyze a comprehensive suite of metrics to enable us to observe the influence of certain code review practices on combating or even accelerating design degradation. Our results show that the majority of code reviews had little to no design degradation impact in the analyzed projects. Even worse, this observation also applies, to some extent, to reviews with an explicit concern on design. Surprisingly, the practices of long discussions and high proportion of review disagreement in code reviews were found to increase design degradation. Finally, we also discuss how the study findings shed light on how to improve the research and practice of modern code review.},	
+  organization={IEEE Press},
+  url={https://anderson-uchoa.github.io/publications/UchoaCWPRAC20.pdf},
+  doi = {10.1109/ICSME46990.2020.00055}
+}
+
+@mastersthesis{Uchoa19,
+  author    = {Anderson Gonçalves Uchôa}, 
+  title     = {On Gamifying an Existing Software System: Method, Conceptual Model and Lessons Learned},
+  school    = {Pontifical Catholic University of Rio de Janeiro (PUC-Rio)},
+  year      = {2019},
+  doi = {https://doi.org/10.17771/PUCRio.acad.47298},
+  url       = {https://anderson-uchoa.github.io/publications/Uchoa19.pdf}
+}
+
+@inproceedings{PaixaoAADAJA20,
+  title={Behind the Intents: An In-depth Empirical Study on Software Refactoring in Modern Code Review},
+  author={Paixao, Matheus and Uchôa, Anderson and Bibiano, Ana Carla and Oliveira, Daniel and Garcia, Alessandro and Krinke, Jens and Arnovio, Emilio},
+  booktitle={Proceedings of the 17th International Conference on Mining Software Repositories (MSR), 2020, Seoul, South Korea, May},
+  pages={1 -- 11},
+  year={2020},
+abstract={Code refactorings are of pivotal importance in modern code review. Developers may preserve, revisit, add or undo refactorings through changes' revisions. Their goal is to certify that the driving intent of a code change is properly achieved. Developers' intents behind refactorings may vary from pure structural improvement to facilitating feature additions and bug fixes. However, there is little understanding of the refactoring practices performed by developers during the code review process. It is also unclear whether the developers’ intents influence the selection, composition, and evolution of refactorings during the review of a code change. Through mining 1,780 reviewed code changes from 6 systems pertaining to two large open-source communities, we report the first in-depth empirical study on software refactoring during code review. We inspected and classified the developers’ intents behind each code change into 7 distinct categories. By analyzing data generated during the complete reviewing process, we observe: (i) how refactorings are selected, composed and evolved throughout each code change, and (ii) how developers' intents are related to these decisions. For instance, our analysis shows developers regularly apply non-trivial sequences of refactorings that crosscut multiple code elements (i.e., widely scattered in the program) to support a single feature addition. Moreover, we observed that new developers’ intents commonly emerge during the code review process, influencing how developers select and compose their refactorings to achieve the new and adapted goals. Finally, we provide an enriched dataset that allows researchers to investigate the context and motivations behind refactoring operations during the code review process.},	
+  organization={ACM},
+  url = {https://anderson-uchoa.github.io/publications/PaixaoAADAJA20.pdf},
+  doi = {10.1145/3379597.3387475}
+}
+
+@inproceedings{SousaAECJMRA19,
+  title={REM4DSPL: A Requirements Engineering Method for Dynamic Software Product Lines},
+  author={Sousa, Amanda and Uchôa, Anderson and Fernandes, Eduardo and Bezerra, Carla IM and Monteiro, José Maria and Andrade, Rossana},
+  booktitle={Proceedings of the XVIII Brazilian Symposium on Software Quality (SBQS), 2019, Fortaleza, Brazil, Oct 28-Nov 1},
+  pages={129--138},
+  year={2019},
+abstract={Context: Dynamic Software Product Line (DSPL) is a set of software products capable of self-adapt and configure in run-time. DSPL products have common features (commonalities) and varying features (managed in run-time according to context changes). Objective: DSPL requirements engineering is challenging. Requirements engineers have to carefully plan self-adaptation while eliciting, modeling, and managing variability requirements. This paper introduces a method for DSPL requirements engineering. Method: We relied on empirically-derived activities of DSPL requirements engineering to build our method. We selected techniques and templates used in other domains such as SPL for refinement and incorporation into the method. We asked DSPL experts on the method applicability. Result: We introduced the Requirements Engineering Method for DSPL (REM4DSPL). Elicitation is guided by supervised discussions. Modeling relies on feature models. Variability Management is tool-assisted and validated via feature model inspection. DSPL experts agreed on the method applicability and suggested improvements. Conclusion: REM4DSPL relies on empirically-derived activities, techniques that have been successfully used by previous work, and templates adapted to the DSPL context. We expect our method to guide requirements engineers in practice.},	
+  organization={ACM},
+url = {https://anderson-uchoa.github.io/publications/SousaAECJMRA19.pdf},
+doi = {10.1145/3364641.3364656}
+}
+
+@inproceedings{deMelloARWJKDBA19,
+  title={Do Research and Practice of Code Smell Identification Walk Together? A Social Representations Analysis},
+  author={Rafael de Mello and Anderson Uchôa and Roberto Oliveira and Willian Oizumi and Jairo Souza and Kleyson Mendes and Daniel Oliveira and Baldoino Fonseca and Alessandro Garcia},
+  booktitle={Proceedings of the 13th International Symposium on Empirical Software Engineering and Measurement (ESEM), 2019, Porto de Galinhas, Brazil, Sept 19-20.},
+  pages={1--6},
+  year={2019},
+abstract={Context: It is frequently claimed the need for bridging the gap between software engineering research and practice. In this sense, the theory of social representations may be useful to characterize the actual concerns of software developers. It comprises the system of values, behaviors, and practices of communities regarding a particular social object, such as the task of smell identification. Aim: To characterize the social representations of smell identification by software developers. Method: Based on the answers given to a questionnaire, we analyzed the associations made by the developers about smell identification, i.e., what immediately comes to their minds when they think about this task. Results: We found that developers strongly associate smell identification with the practice of smell removal and with the incidence of bugs. They also frequently associate the task with the practice of inspection and with the need of having individual skills. Besides, we verified that the current state of the art on smell identification partially address the social representations of the software developers. Conclusion: There is a considerable gap between the research of smell identification and its practice. We propose directions to mitigating this gap.},
+publisher={IEEE Press},
+url = {https://anderson-uchoa.github.io/publications/deMelloARWJKDBA19.pdf},
+doi = {10.1109/ESEM.2019.8870141}
+}
+
+@inproceedings{deMelloARDWJBA2019,
+  title={Investigating the Social Representations of the Identification of Code Smells by Practitioners and Students from Brazil},
+  author={Rafael de Mello and Anderson Uchôa and Roberto Oliveira and Daniel Oliveira and Willian Oizumi and Jairo Souza and Baldoino Fonseca and Alessandro Garcia},
+  booktitle={Proceedings of the 33nd Brazilian Symposium on Software Engineering (SBES)},
+  pages={457--466},
+  year={2019},
+abstract={Context: The identification of code smells is one of the most subjective tasks in software engineering. A key reason is the influence of collective aspects of communities working on this task, such as their beliefs regarding the relevance of certain smells. However, collective aspects are often neglected in the context of smell identification. For this purpose, we can use the social representations theory. Social representations comprise the set of values, behaviors, and practices of communities associated with a social object, such as the task of identifying smells. Aim: To characterize the social representations behind smell identification. Method: We conducted an empirical study on the social representations of smell identification by two communities. One community is composed of postgraduate students from different Brazilian universities. The other community is composed of practitioners located in Brazilian companies, having different levels of experience in code reviews. We analyzed the associations made by the study participants about smell identification, i.e., what immediately comes to their minds when they think about this task. Results: One of the key findings is that the community of students and practitioners have stronger associations with different types of code smells. Students share a strong belief that smell identification is a matter of measurement, while practitioners focus on the structure of the source code and its semantics. Besides, we found that only practitioners frequently associate the task with individual skills. This finding suggests research directions on code smells may be revisited. Conclusion: We found evidence that social representations theory allows identifying research gaps and opportunities by looking beyond the borders of formal knowledge and individual opinions. Therefore, this theory can be considered an important resource for conducting qualitative studies in software engineering.},
+publisher={ACM},
+url = {https://anderson-uchoa.github.io/publications/deMelloARDWJBA19.pdf},
+doi = {10.1145/3350768.3351794}
+}
+
+@inproceedings{FernandesAAA19,
+  title={On the Alternatives for Composing Batch Refactoring},
+  author={Eduardo Fernandes and Anderson Uchôa and Ana Carla Bibiano and Alessandro Garcia},
+  booktitle={Proceedings of the 3rd International Workshop on Refactoring (IWoR)},
+  pages={9--12},
+  year={2019},
+abstract={Code refactoring is often performed for improving code structures through code transformations. Many transformations, e.g., extracting or moving a method, are applied for at least partially removing code smells. Each code smell is a symptom of a poor code structure that makes hard to read and change the program. Developers often compose two or more interrelated transformations in conjunction (batch refactoring) rather than applying a single transformation. For instance, developers often compose method extractions with method motions to better organize the features realized by classes. We have recently observed cases of batch refactoring performed along with code review in open source projects. We then noticed that composing batches capable of fully removing code smells is quite challenging. Especially, it requires carefully discussing on how two or more transformations complement one another and what to expect from the batch effect on code smell. This position aims to reason about multiple alternatives to support developers on composing their batches. These alternatives should make it easier to compose batches that remove code smells. For this purpose, we exemplify the role of semi-automated tools in gradually recommending transformations, thereby guiding the batch composition in each alternative.},
+url = {https://anderson-uchoa.github.io/publications/FernandesAAA19.pdf},
+doi = {10.1109/IWoR.2019.00009},
+publisher={IEEE Press}
+}
+
+@inproceedings{deMelloARDBAF19,
+  title={Investigating the Social Representations of Code Smell Identification: A Preliminary Study},
+  author={Rafael de Mello and Anderson Uchôa and Roberto Oliveira and Daniel Tenorio and Baldoino Fonseca and Alessandro Garcia and Fernanda de Mello},
+  booktitle={Proceedings of the 12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)},
+  pages={53--60},
+  year={2019},
+abstract={Context: The identification of code smells is one of the most subjective tasks in software engineering. A key reason is the influence of collective aspects of communities working on this task, such as their beliefs regarding the relevance of certain smells. However, collective aspects are often neglected in the context of smell identification. For this purpose, we can use the social representations theory. Social representations comprise the set of values, behaviors and practices of communities associated with a social object, such as the task of identifying smells. Aim: To characterize the social representations behind smell identification. Method: We conducted a preliminary study on the social representations of smell identification by two communities. One community is composed of postgraduate students involved in various investigations related to code smells. The other community is composed of practitioners from industry, with experience in code reviews. We analyzed the associations made by the study participants about smell identification, i.e., what immediately comes to their minds when they think about this task. Results: One of the key findings is that only the community of practitioners strongly associates this task with semantic smells. This finding suggests research directions on code smells may be revisited, as they focus mostly on measurable or structural smells. Considering the novelty of using the social representations theory in software engineering, we also compiled a set of lessons learned. For instance, we observed some key challenges we faced in using the theory. These challenges include: (i) the predominance of associations with technical rather than non-technical concepts, and (ii) the fuzzy definitions of key concepts in our field. Conclusion: We found initial evidence that social representations analysis is a useful instrument to reveal discrepancies and commonalities on how different communities deal with a subjective task. Thus, we expect the experience reported in this paper may encourage and contribute to future studies of social representations in the field.},
+url = {https://anderson-uchoa.github.io/publications/deMelloARDBAF19.pdf},
+doi = {10.1109/CHASE.2019.00022},
+publisher={IEEE Press}
+}
+
+@inproceedings{UchoaEBRCGAL19,
+  title={On Gamifying an Existing Healthcare System: Method, Conceptual Model and Evaluation},
+  author={Anderson Uchôa and Eduardo Fernandes and Baldoino Fonseca and Rafael de Mello and Caio Barbosa and Gabriel Nunes and Alessandro Garcia and Leopoldo Teixeira},
+  booktitle={Proceedings of the 1st International Workshop on Software Engineering for Healthcare (SEH)},
+  pages={1--8},
+  year={2019},
+abstract={Software gamification aims at engaging users with software system features. User engagement is promoted via a gamification model that associates game elements (e.g., points) and rules (e.g., ranking policy) with each feature. Gamification has been increasingly explored in certain healthcare domains, such as chronic disease management and physical activity. However, there are currently two important literature gaps. First, certain healthcare domains in which user engagement is even more critical, such as the prevention of mosquito-transmitted diseases, have not systematically explored gamification yet. Healthcare systems of this domain largely depend on the wide engagement of the population, health professionals and authorities. Second, gamification is often introduced in existing systems developed without gamification in mind. Current methods are quite limited to support this task. In this paper, we report our experience while defining, incorporating, and evaluating a gamification model of an existing healthcare system called VazaZika. VazaZika is intended to assist the prevention of mosquito-transmitted diseases in economically emerging countries. We present and discuss the application of a method, adapted from a previous study, to support the design and incorporation of a gamification model in existing systems (VazaZika, in our case). We also present the resulting conceptual model based on 12 game elements and 16 rules. We evaluate this model with 20 users in terms of ease of use and potential for user engagement. Our results suggest that our conceptual model has resulted in an easy-to-use system with the potential of truly engaging users with critical healthcare-related features. We expect the method and its resulting model can be further reused and adapted to similar healthcare systems.},
+url = {https://anderson-uchoa.github.io/publications/UchoaEBRCGAL19.pdf},
+doi = {10.1109/SEH.2019.00009},
+publisher={IEEE Press}
+}
+
+@inproceedings{JulioCA19,
+ title={Analyzing the Impact of Inter-smell Relations on Software Maintainability: An Empirical Study with Software Product Lines},
+author={Júlio Martins and Carla Bezerra and Anderson Uchôa},
+  booktitle={Proceedings of the 15th Brazilian Symposium on Information Systems (SBSI)},
+  pages={1--8},
+  year={2019},
+abstract={A Software Product Line (SPL) consists of a systematic reuse strategy to construct systems with less effort as long as they belong to the same family that shares the same components and belong to the same domain of Marketplace. In this context, to support large-scale reuse, components of a Software Product Line should be easy to maintain. Thus, developers should be more concerned with anomalies known as code smells and more than that, co-occurrences known as Inter-smell deserve to be further studied to verify their real impact on maintainability in SPL. Thus, this paper conducts a study to investigate the impact of Inter-smell occurrences on maintainability in MobileMedia and HealthWatcher SPLs. The results show that the presence of co-occurrences of Inter-smell did not negatively impact the maintenance of MobileMedia and Health Watcher SPLs, unlike results found in other studies in the literature, and even more, our results indicate that the metric Lack of Cohesion of Methods is one of the most important for the maintainability of object-oriented SPLs.},
+url = {https://anderson-uchoa.github.io/publications/JulioCA19.pdf},
+doi = {10.1145/3330204.3330254},
+publisher={ACM}
+}
+
+@inproceedings{FernandesALARLDABL19,
+  title={VazaZika: A Software Platform for Surveillance and Control of Mosquito-Borne Diseases},
+  author={Eduardo Fernandes and Anderson Uchôa and Leonardo Sousa and Anderson Oliveira and Rafael de Mello and Luiz Paulo Barroca and Diogo Carvalho and Alessandro Garcia and Baldoino Fonseca and Leopoldo Teixeira},
+  booktitle={16th International Conference on Information Technology: New Generations (ITNG)},
+  pages={617--620},
+  year={2019},
+abstract={Mosquito-borne diseases negatively affect economically emerging countries. Nevertheless, the current public healthcare solutions are insufficient to support disease surveillance and control. The citizen engagement in reporting mosquito breeding sites is hard to achieve but essential in preventing disease outbreaks. This paper introduces the VazaZika platform aimed to support the surveillance and control of mosquito-borne diseases. This platform evolves the VazaDengue legacy platform with gamification. Through game elements and rules, we aim to make enjoyable and challenging to report mosquito breeding sites via VazaZika. Citizens are continuously rewarded as they perform tasks in the platform. They progress in levels that enable new tasks and jump in rankings according to the citizens' location. Citizens can also join teams for engaging with challenges, which helps to develop a sense of belonging and connection against the spread of diseases. This paper reports the process of gamifying VazaDengue, the platform user interface and its conceptual model, aimed to support reuse.},
+url = {https://anderson-uchoa.github.io/publications/FernandesALARLDABL19.pdf},
+doi = {10.1007/978-3-030-14070-0_89},
+publisher={Springer}
+}
+
+@inproceedings{FerreiraIEDAAAJFGCBR18,
+ author = {Ferreira, Isabella and Fernandes, Eduardo and Cedrim, Diego and Uchôa, Anderson and Bibiano, Ana Carla and Garcia, Alessandro and Correia, João Lucas and Santos, Filipe and Nunes, Gabriel and Barbosa, Caio and Fonseca, Baldoino and de Mello, Rafael},
+ title = {The Buggy Side of Code Refactoring: Understanding the Relationship Between Refactorings and Bugs},
+ booktitle = {Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings},
+ series = {ICSE '18},
+ year = {2018},
+ isbn = {978-1-4503-5663-3},
+ location = {Gothenburg, Sweden},
+ pages = {406--407},
+ numpages = {2},
+abstract={Code refactoring is widely practiced by software developers. There is an explicit assumption that code refactoring improves the structural quality of a software project, thereby also reducing its bug proneness. However, refactoring is often applied with different purposes in practice. Depending on the complexity of certain refactorings, developers might unconsciously make the source code more susceptible to have bugs. In this paper, we present a longitudinal study of 5 Java open source projects, where 20,689 refactorings, and 1,033 bug reports were analyzed. We found that many bugs are introduced in the refactored code as soon as the first immediate change is made on it. Furthermore, code elements affected by refactorings performed in conjunction with other changes are more prone to have bugs than those affected by pure refactorings.},
+ url = {https://anderson-uchoa.github.io/publications/FerreiraEDA18.pdf},
+doi = {10.1145/3183440.3195030},
+ acmid = {3195030},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {bug proneness, empirical study, refactoring, software maintenance},
+}
+
+@article{SousaLRDAPAAA18,
+title = "VazaDengue: An information system for preventing and combating mosquito-borne diseases with social networks",
+journal = "Information Systems",
+volume = "75",
+pages = "26 - 42",
+year = "2018",
+issn = "0306-4379",
+doi = "10.1016/j.is.2018.02.003",
+url = "https://anderson-uchoa.github.io/publications/SousaLRDAPAAA18.pdf",
+author = "Leonardo Sousa and Rafael de Mello and Diego Cedrim and Alessandro Garcia and Paolo Missier and Anderson Uchôa and Anderson Oliveira and Alexander Romanovsky",
+keywords = "Dengue, Mosquito, Social media, Surveillance, Tweets",
+abstract = "Dengue is a disease transmitted by the Aedes Aegypti mosquito, which also transmits the Zika virus and Chikungunya. Unfortunately, the population of different countries has been suffering from the diseases transmitted by this mosquito. The communities should play an important role in combating and preventing the mosquito-borne diseases. However, due to the limited engagement of the population, new solutions need to be used to strengthen the mosquito surveillance. VazaDengue is one of these solutions, which offers the users a web and mobile platform for preventing and combating mosquito-borne diseases. The system relies on social actions of citizens reporting mosquito breeding sites and dengue cases, in which the reports are made available to the community and health agencies. In order to address the limited population engagement, the system proactively monitors social media network as Twitter to enrich the information provided by the system. It processes the natural language text from the network to classify the tweets according to a set of predefined categories. After the classification, the relevant tweets are provided to the users as reports. In this paper, we describe the VazaDengue features including its ability to harvest and classify tweets. Since the VazaDengue system aims to strengthen the entomological surveillance of the mosquito that transmits Dengue, Zika, and Chikungunya by providing geolocated reports, we present here two studies to evaluate its potential contributions. The first evaluation uses a survey conducted in the Brazilian community of health agents. The goal is to evaluate the relevance of the classified tweets according to the health agents’ perspective. The second study compares the official reports of the 2015–2016 epidemic waves in Brazil with the concentration of mosquito-related tweets found by VazaDengue. The goal is to verify if the concentration of tweets can be used for monitoring the mosquito manifestation in big cities. The results of these two evaluations are encouraging. For instance, we have found that the health agents tend to agree with the relevance of the classified tweets. Moreover, the concentration of tweets is likely to be effective for monitoring big cities. The results of these evaluations are helping us to improve the VazaDengue system further. These improvements will make the VazaDengue system even more useful for combating and preventing the mosquito-borne diseases."
+}
+
+@inproceedings{UchoaFBA17,
+  title={Do Coupling Metrics Help Characterize Critical Components in Component-based SPL? An Empirical Study},
+  author={Uchôa, Anderson and Fernandes, Eduardo and Bibiano, Ana Carla and Garcia, Alessandro},
+  booktitle={Proceedings of the 5th Workshop on Software Visualization, Evolution and Maintenance (VEM'17), Fortaleza, Brazil, September 2017.},
+  pages={36--43},
+  year={2017},
+  abstract={In component-based software product lines (SPL), each component has to encapsulate features, restrict data access, and be replaceable. For critical components, with multiple features and dependencies, these criteria are fundamental for flexible product configuration. Previous work assume that coupling metrics help characterize critical components, but we lack empirical evidence for that assumption. By characterizing critical components, we could help developers identify components that require careful maintenance and evolution. This paper relies on five well-known coupling metrics to compose a strategy for characterizing critical components in component-based SPLs. Our results suggest reasonable strategy’s accuracy but the need for using additional metrics.},
+url={https://anderson-uchoa.github.io/publications/UchoaFBA17.pdf}	
+}
+
+@inproceedings{UchoaMMMC17,
+author="Uchôa, Anderson G.
+and Bezerra, Carla I. M.
+and Machado, Ivan C.
+and Monteiro, José Maria
+and Andrade, Rossana M. C.",
+title="ReMINDER: An Approach to Modeling Non-Functional Properties in Dynamic Software Product Lines",
+bookTitle="Proceedings of the 16th International Conference on Software Reuse (ICSR'17), Salvador, Brazil, May 2017.",
+year="2017",
+publisher="Springer International Publishing",
+pages="65--73",
+abstract="This paper presents a systematic approach to modeling NFPs in DSPL feature models. In our proposed approach, feature models are annotated with the representation of NFPs, rules for the activation and deactivation of features, constraints between NFPs and features, and context adaptation scenarios. To evaluate the applicability of the proposed approach we carried out an empirical evaluation. The approach yielded good results at identifying NFPs in DSPLs.",
+isbn="978-3-319-56856-0",
+doi="10.1007/978-3-319-56856-0_5",
+url="https://anderson-uchoa.github.io/publications/UchoaMMMC17.pdf"
+}
+
+@inproceedings{UchoaPMMC17,
+author="Uchôa, Anderson G.
+and Lima, Luan P.
+and Bezerra, Carla I. M.
+and Monteiro, José Maria
+and Andrade, Rossana M. C.",
+title="DyMMer-NFP: Modeling Non-functional Properties and Multiple Context Adaptation Scenarios in Software Product Lines",
+bookTitle="Proceedings of the 16th International Conference on Software Reuse (ICSR'17), Salvador, Brazil, May 2017.",
+year="2017",
+publisher="Springer International Publishing",
+pages="175--183",
+abstract="In Software Product Lines (SPLs), the modeling of non-functional properties (NFPs) and context adaptation scenarios are important activities, once they make possible the identification of interdependencies constraints between functional requirements (FR) and NFP, according to a specific adaptation context scenario. However, there are few tools to help domain engineers to represent NFPs and context adaptation scenarios. To deal with this problem, we propose DyMMer-NFP, an extension of the DyMMer tool to support the modeling of NFPs and multiple contextual adaptation scenarios in feature models. DyMMer-NFP uses a catalog with 39 NFPs. Each NFP in this catalog were mapped according to each quality characteristic and sub-characteristics presented in the ISO/IEC 25010 SQuaRE product quality model. To specify the interdependencies between NFPs and features, DyMMer-NFP has used the concept of contribution links. In order to make it easier to evaluate DyMMer-NFP two datasets, called AFFOgaTO and ESPREssO, were made available for free.",
+isbn="978-3-319-56856-0",
+doi="10.1007/978-3-319-56856-0_12",
+url="https://anderson-uchoa.github.io/publications/UchoaPMMC17.pdf"
+}
+
+@inproceedings{UchoaM16,
+  title={Modelagem de Requisitos Não-Funcionais em Modelos de Features de Linha de Produto de Software Dinâmicas},
+  author={Uchôa, Anderson G and Bezerra, Carla IM},
+  booktitle={Proceedings of the 3rd Latin-American School on Software Engineering (ELA-ES)},
+  pages={73--76},
+  note={<font color="red">Best Paper Award!</font>},
+  year={2016},
+  abstract={This paper proposes a representation of non-functional requirements and context requirements for the feature model of DSPLs. The   representation extends the FODA notation of the feature model. The proposal will be implemented in DyMMer tool that already provides representation of features and context adaptations in a single feature model.},
+ url={https://anderson-uchoa.github.io/publications/UchoaM16.pdf}
+}
+
+@misc{UchoaR16,
+  author={Anderson Gonçalves Uchôa},
+  title={ReMINDER: Uma Abordagem para Modelagem de Propriedades Não-Funcionais em Linhas de Produto de Software Dinâmicas},
+  note={BSc Thesis, Federal University of Ceará (UFC)},
+  year={2016},
+  abstract = {Linhas de Produto de Software (LPS) representam um conjunto de sistemas de software que compartilham de um conjunto de features comuns e gerenciadas, que satisfazem as necessidades de um segmento de mercado particular ou missão. No entanto, a representação de variabilidade dos produtos gerados por LPSs é feita apenas de forma estática, ou seja, a adaptação ocorre em tempo de projeto. Contudo, com o surgimento de sistemas sensíveis ao contexto, a construção de sistemas tem se tornado mais complexa, dado as mudanças de requisitos e restrições conforme o ambiente no qual está inserido, exigindo um alto grau de adaptação em tempo de execução. Esses sistemas podem ser conceitualizados como Linhas de Produtos de Software Dinâmica (LPSD). Um dos desafios para construir um LPSD é desenvolver um mecanismo para incorporar cenários com adaptações de contexto e propriedades não-funcionais (PNFs). Para incorporar esses mecanismo ao modelo de features de LPSDs, uma boa estratégia consiste em utilizar uma abordagem para guiar a identificação e representação destes mecanismos. Neste cenário, o objetivo deste trabalho é representar PNFs e cenários de adaptações de contexto em modelos de features de LPSDs. Para isso, foi elaborada uma abordagem capaz de identificar PNFs, restrições e cenários de adaptações de contexto, ativação e desativação de features, denominada ReMINDER. Também foi desenvolvida uma extensão da ferramenta DyMMer, para suportar a abordagem. Para avaliação da abordagem e da ferramenta, foram realizados dois estudos. O primeiro foi um experimento controlado, para analisar o processo definido na abordagem ReMINDER, com a finalidade de caracterizar a sua aplicação, em relação à identificação de PNFs e cenários de adaptações de contexto, com suas respectivas restrições, para apoiar a modelagem de features e representação de PNFs em modelos de features de LPSDs. O segundo estudo foi a aplicação de um teste de usabilidade. Esse teste teve como objetivo avaliar a usabilidade da ferramenta estendida por meio da análise de quatro fatores: i) satisfação geral; ii) usabilidade da ferramenta; iii) qualidade da informação; e iv) qualidade da interface. De modo geral, após a análise e interpretação de todos os resultados obtidos, conclui-se que a abordagem auxiliou na identificação das PNFs e a sua relação com o comportamento do modelo de features por meio de restrições de interdependência. Além disso, também foi verificado que a ferramenta estendida possui um boa usabilidade, sendo útil para operacionalização da abordagem.},
+  url={https://anderson-uchoa.github.io/publications/UchoaR16.pdf},
+  doi = {http://www.repositorio.ufc.br/handle/riufc/24885}
+}
